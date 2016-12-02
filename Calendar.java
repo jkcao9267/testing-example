@@ -16,6 +16,8 @@ public class Calendar {
         toScreen.setYear(year);
         toScreen.setMonth(month);
         
+		
+		
 	// get starting day
 	Day myday = new Day();
       	int d = myday.getDay(month, 1, year);
